@@ -5,17 +5,14 @@
    - name: install git
      apt:
       - name: git 
-        state: present
-     when: ansible_os_family == "Debian"
+        
    - name: install tree
      apt:
       namee: tree
-      state: present 
-     when: ansible_os_family == "Debian"
+      
 
    - name: install wget
      apt:
       name: wget
-      state: present
-     when: ansible_os_family == "Debian" 
+       
 
